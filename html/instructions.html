@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/instructions.css">
+    <title>TR board games</title>
+</head>
+<body>
+    <div class="instructions">
+    <h1>Reversi Rules</h1> 
+       <h2>OBJECTIVE</h2> 
+        <p> In Reversi, the goal is to have more of your color pieces on the board than your opponent by the end of the game.
+        You may play a piece on the board when it is possible to trap one or more of your opponent's pieces in a horizontal, vertical or diagonal manner.
+        Trapped pieces (that is pieces sitting between pieces of the opposite color) are flipped over to the opposite color.</p>
+        
+       <h2>PLAYING THE GAME</h2> 
+       <p>
+        Black takes the first turn. They must place a piece where at least one opponent piece will be trapped and flipped.
+        Players alternate turns playing pieces and flipping trapped pieces.
+        Pieces are never moved once they are placed, only flipped as they become trapped and potentially trapped again.
+        It is possible to trap pieces in more manners than one (EXAMPLE: a piece can be placed that finishes both a vertical and diagonal trap. Any piece that is now trapped in any manner is then flipped).
+        If a player cannot trap any opponent pieces by playing a piece, their turn is skipped until they can play a piece that would trap one or more opponent pieces.
+        Once no more pieces can be placed, the game is over!</p>
+       <h2> WINNING</h2>
+       <p> The player with the most pieces on the board by the end of the game wins!
+        
+        If a player traps and flips over all remaining opponent pieces so that every piece is of their color, they win!</p>
+        <button type="submit" onclick="homePage()">back to home page</button>
+        <button type="submit" onclick="launchGame()">launch game</button>
+    </div>
+</body>
+<script src="../scripts/instructions.js"></script>
+</html>

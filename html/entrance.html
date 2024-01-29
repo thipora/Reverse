@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/entrance.css">
+    <title>TR board games</title>
+</head>
+<body>
+    <img id="logo" src="../images/logo.png">
+    <div class="form_container">
+        <div id="signUp">
+            <h1>SIGN UP</h1>
+            <form onsubmit="sign_up(event)">
+                <input type="text" class="input" id="new_player#1" placeholder="player #1" required>
+                <input type="text" class="input" id="new_player#2" placeholder="player #2" required>
+                <input type="password" class="input" id="new_password" placeholder="password" required>
+                <input type="password" class="input" id="password_verification" placeholder="password verification" required>
+                <input type="submit"  id="submit_btn" value="sign up">
+            </form>
+            <p>Have an acount? <a onclick="logIn_signUp()">  login here</a></p>
+        </div>
+        <div id="logIn">
+            <h1>LOGIN</h1>
+            <form onsubmit="log_in(event)">
+                <input type="text" class="input" id="player#1" placeholder="player #1" required>
+                <input type="text" class="input" id="player#2" placeholder="player #2" required>
+                <input type="password" class="input" id="password" placeholder="password" required>
+                <input  type="submit"   id="submit_btn" value="log in">
+            </form>
+            <p>new user? <a onclick="logIn_signUp()">   sign up here</a></p>
+        </div>
+    </div>
+</body>
+<script src="../scripts/Players.js"></script>
+<script src="../scripts/entrance.js"></script>
+</html>

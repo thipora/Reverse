@@ -1,0 +1,31 @@
+body{
+    margin-top: 17px;
+    background: url("../images/instructionsBackground.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    border: 8px darkgray double;
+}
+
+.instructions{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    mix-blend-mode:difference;
+}
+
+h1,h2,p{
+    font-family: cursive;
+}
+
+button{
+    height:50PX;
+    width: 250PX;
+    margin: 42PX;
+    background-color: rgb(86, 247, 86);
+    margin-right: 10px;
+    border-radius: 12px;
+    font-size: large;
+}
+
+

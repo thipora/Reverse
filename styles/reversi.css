@@ -1,0 +1,115 @@
+html { 
+    background: url("../images/background_pic.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#boardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#board{
+  margin-top: 120px;
+}
+
+.player{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#table{
+    border: solid 8px black;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid 4px black;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(16, 88, 16);
+}
+
+#soldier{
+  width: 100%;
+  height: 100%;
+  border-Radius: 50%;
+}
+
+.currentPlayer{
+  border: solid  12px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#blackPlayer{
+  background-color: black;
+}
+
+#whitePlayer{
+  background-color: white;
+}
+
+#pointPlayer1,#pointPlayer2{
+  font-size:60px;
+  color: green;
+}
+
+#namePlayer1,#namePlayer2{
+  font-size: 50px;
+  color: rgb(2, 46, 22);
+}
+
+
+#winerText{
+  color: white;
+  font-family: OCR A Std, monospace;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#winerText,#winner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#winner{
+  display: none;
+}
+
+#gameButtons{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#gameButtons>button{
+  margin-right: 5px;
+  mix-blend-mode:color-dodge;
+  border: black;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#nextPlayer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#nextPlayer>button{
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-weight: bolder;
+  height: 35px;
+  width: 15%;
+}

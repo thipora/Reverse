@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+#logo{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 100px;
+  width: 150px;
+}
+
+#gameImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+#reversi,#chess,#monopoly{
+    height: 400px;
+    width: 450px;
+    margin: 30px;
+}
+
+.gameName{
+  text-align: center;
+  color: #10472c;
+  font-size: 30px;
+}
+
+#reversi:hover,#chess:hover,#monopoly:hover{
+    border: #048145 double 12px;
+    border-style: outset;
+}
+
+.title {
+  margin-top: 5px;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  -webkit-animation: title 1s ease-in-out infinite alternate;
+  -moz-animation: title 1s ease-in-out infinite alternate;
+  animation: title 1s ease-in-out infinite alternate;
+}
+
+@keyframes title {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                  0 0 50px #1a7e54, 0 0 60px #1cbd32, 0 0 70px #226d38;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #135e2c, 0 0 40px #10472c, 0 0 50px #52da74,
+                  0 0 60px #08f5a6, 0 0 70px #3b9e54, 0 0 80px #3ceb4b;
+  }
+}

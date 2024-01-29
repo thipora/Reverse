@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reversi.css">
+    <title>TR board games</title>
+</head>
+<body>
+    <div id="winner">
+        <audio id="myAudio">
+        <source src="../audio/Video.mp4" ></audio>
+        <img  src="../images/winner.png">
+        <div id="winerText"><p> HURRAY:)</p><p id="winnerName"></p></div>
+        <audio src=""></audio>
+    </div>
+    <div id="gameButtons">
+        <button onclick="goHomePage()">HOME PAGE</button>
+        <button onclick="newGame()">NEW GAME</button>
+        <button onclick="logOut()">QUIT GAME</button>
+    </div> 
+
+    <div id="boardContainer">
+        <div id="plyerNum1" class="playersContainer">
+            <h1 id="namePlayer1" class="player"></h1>
+            <h1 id="pointPlayer1"  class="player"></h1>
+            <div class="currentPlayer" id="blackPlayer"></div> 
+        </div>
+        <div id="board"></div>
+        <div id="plyerNum2" class="playersContainer">
+            <h1 id="namePlayer2"  class="player"></h1>
+            <h1 id="pointPlayer2"  class="player"></h1>
+            <div class="currentPlayer" id="whitePlayer"></div>
+        </div>
+    </div>
+    <div id="nextPlayer"><button onclick="switchToNextPlayer()">I HAVE NO LEAGAL MOVES</button></div>
+
+</body>
+<script src="../scripts/reversi.js"></script>
+</html>

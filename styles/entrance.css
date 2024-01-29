@@ -1,0 +1,54 @@
+body { 
+    background: url("../images/loginBackground.jpg")no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 100px;
+    width: 150px;
+}
+
+h1{
+    font-size: 70px;
+    color:whitesmoke;
+}
+
+p{
+    font-weight: bold;
+    font-size: larger;
+    color:whitesmoke;
+}
+
+#submit_btn{
+    height: 30px;
+    width: 100px;
+    background-color:  rgb(121, 219, 121);
+    border-radius: 10px;
+}
+
+.input{
+    display: block;
+    border: double rgb(49, 211, 49);
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: underline rgb(49, 211, 49);
+}
+
+.form_container{
+   margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 150px;
+}
